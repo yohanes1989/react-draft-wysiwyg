@@ -385,7 +385,8 @@ export default class WysiwygEditor extends Component {
       "customBlockRenderFunc",
       "customDecorators",
       "handlePastedText",
-      "customStyleMap"
+      "customStyleMap",
+      "plugins"
     ]);
 
   getStyleMap = props => ({ ...getCustomStyleMap(), ...props.customStyleMap });
